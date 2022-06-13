@@ -1,0 +1,24 @@
+<!-- Sample User -->
+
+    <authorize 
+            username="username@gmail.com"
+            password="P@ss2word">
+
+        <connection name="Windows Local">
+            <protocol>rdp</protocol>
+            <param name="hostname">10.10.11.109</param>
+            <param name="port">3389</param>
+            <param name="username">windows@domain.com</param>
+            <param name="password">d!ffp@ssword</param>
+            <param name="ignore-cert">true</param>
+            <param name="resize-method">display-update</param>
+            <param name="color-depth">24</param>
+            <param name="enable-wallpaper">true</param>
+            <param name="enable-font-smoothing">true</param>
+        </connection>
+    </authorize>
+
+
+
+
+</user-mapping>
